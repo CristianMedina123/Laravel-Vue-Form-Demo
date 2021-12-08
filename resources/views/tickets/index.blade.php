@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Tickets List') }}</div>
+                <div class="card-header"><h4 class="titulocarta">{{ __('Tickets List') }}</h4></div>
 
                 <div class="card-body">
                     <a class="btn btn-primary" href="{{ route('tickets.create') }}">Add new ticket</a>
